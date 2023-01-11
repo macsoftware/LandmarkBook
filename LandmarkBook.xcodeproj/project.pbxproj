@@ -13,6 +13,7 @@
 		8837372D296ED4FD001C8C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8837372B296ED4FD001C8C38 /* Main.storyboard */; };
 		8837372F296ED500001C8C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8837372E296ED500001C8C38 /* Assets.xcassets */; };
 		88373732296ED500001C8C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88373730296ED500001C8C38 /* LaunchScreen.storyboard */; };
+		8837373A296EEECA001C8C38 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88373739296EEECA001C8C38 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8837372E296ED500001C8C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88373731296ED500001C8C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88373733296ED500001C8C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88373739296EEECA001C8C38 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8837372E296ED500001C8C38 /* Assets.xcassets */,
 				88373730296ED500001C8C38 /* LaunchScreen.storyboard */,
 				88373733296ED500001C8C38 /* Info.plist */,
+				88373739296EEECA001C8C38 /* DetailsVC.swift */,
 			);
 			path = LandmarkBook;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8837372A296ED4FD001C8C38 /* ViewController.swift in Sources */,
+				8837373A296EEECA001C8C38 /* DetailsVC.swift in Sources */,
 				88373726296ED4FD001C8C38 /* AppDelegate.swift in Sources */,
 				88373728296ED4FD001C8C38 /* SceneDelegate.swift in Sources */,
 			);
